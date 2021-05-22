@@ -1,7 +1,7 @@
 import random
 
 
-prime = True
+
 
 
 while True:
@@ -17,7 +17,7 @@ while True:
     print(f'Range Hint: The Number is between {start_range} & {end_range}')
 
     # prime Hint
-
+    prime = True
     for x in range(2, int(random_number)):
         if (int(random_number) % x == 0):
             prime = False
